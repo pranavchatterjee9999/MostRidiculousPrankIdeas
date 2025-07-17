@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, #f9f9f9, #e0f7ff);
+  font-family: sans-serif;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px 20px 10px;
+  color: #cc0077;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.prank {
+  background: #fff;
+  border: 2px dashed #ccf;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  transition: transform 2s;
+}
+
+.prank:hover {
+  transform: scale(1.2);
+}
+
+h2 {
+  color: #007799;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto 15px;
+  border-radius: 10px;
+}
